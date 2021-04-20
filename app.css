@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar div {
+    float: right;
+    height: 48px;
+}
+
+.navbar div ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 0.6em;
+    font-size: 0.8em;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+li svg {
+    width: 24px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+}
+
+li svg:hover {
+    border-radius: 50%;
+    background-color: #f3f3f3;
+}
+
+li img {
+    width: 32px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+}
+
+
+li img:hover {
+    border: 3px solid #f3f3f3;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div .input-area {
+    width: 90%;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3em;
+    border: 1px solid rgb(219, 219, 219);
+    margin-bottom: 1em;
+    
+}
+
+div input::selection {
+    border: none;
+}
+
+.search-things {
+    display: flex;
+    justify-content: center;
+}
+
+.search-things button {
+    margin: 0 15px;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.search-things button a{
+    margin: 0 0.4em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-size: 0.9em;
+}
+
+
+.search-things button:hover {
+    border: 1px solid rgba(206, 206, 206, 0.411);
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(124,124,124,0.28); 
+    box-shadow: 0px 0px 3px 1px rgba(124,124,124,0.28);
+}
+
+input:focus {
+    outline: none;
+}
+
+div svg {
+    width: 20px;
+}
+
+.lupa {
+    margin-right: 1em;
+    opacity: 0.5;
+}
+
+input {
+    border: none;
+    width: 100%;
+    padding: 0.2em 1em;
+    font-size: 1.2em;
+}
+
+.mic {
+    margin-top: 2px;
+}
+
+div p img {
+    width: 90%;
+    padding: 0 5%;
+}
+
